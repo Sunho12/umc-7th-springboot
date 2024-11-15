@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c809fd4a-744d-47a8-b281-bd12a25c2942" name="Changes" comment="[8주차] 회원가입 API 구현 및 스웨거 세팅 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/converter/ReviewConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/ReviewService/ReviewCommandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/ReviewService/ReviewCommandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/ReviewRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ReviewRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ReviewResponse.java" afterDir="false" />
+    <list default="true" id="c809fd4a-744d-47a8-b281-bd12a25c2942" name="Changes" comment="[8주차] 미션 댓글 달기 API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/QReview.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/QReview.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/Review$ReviewBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/Review$ReviewBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/claire/spring/domain/QReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/claire/spring/domain/QReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/domain/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/domain/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ReviewRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ReviewRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731598322841</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[8주차] 미션 댓글 달기 API">
+      <option name="closed" value="true" />
+      <created>1731631194006</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731631194006</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +368,7 @@
     <MESSAGE value="[7주차] API 응답 통일 &amp; 에러 핸들러" />
     <MESSAGE value="[8주차]" />
     <MESSAGE value="[8주차] 회원가입 API 구현 및 스웨거 세팅 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="[8주차] 회원가입 API 구현 및 스웨거 세팅 완료" />
+    <MESSAGE value="[8주차] 미션 댓글 달기 API" />
+    <option name="LAST_COMMIT_MESSAGE" value="[8주차] 미션 댓글 달기 API" />
   </component>
 </project>
