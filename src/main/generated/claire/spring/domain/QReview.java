@@ -26,7 +26,7 @@ public class QReview extends EntityPathBase<Review> {
 
     public final ListPath<Comment, QComment> commentList = this.<Comment, QComment>createList("commentList", Comment.class, QComment.class, PathInits.DIRECT2);
 
-    public final StringPath Content = createString("Content");
+    public final StringPath content = createString("content");
 
     //inherited
     public final DateTimePath<java.time.LocalDateTime> createdAt = _super.createdAt;
@@ -39,9 +39,9 @@ public class QReview extends EntityPathBase<Review> {
 
     public final QMission mission;
 
-    public final NumberPath<Float> Rating = createNumber("Rating", Float.class);
+    public final NumberPath<Float> rating = createNumber("rating", Float.class);
 
-    public final StringPath Title = createString("Title");
+    public final StringPath title = createString("title");
 
     //inherited
     public final DateTimePath<java.time.LocalDateTime> updatedAt = _super.updatedAt;

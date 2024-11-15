@@ -27,14 +27,14 @@ public class Review extends BaseEntity {
     private Mission mission;
 
     @Column(nullable = false, length = 100)
-    private String Title;
+    private String title;
 
     @Column(nullable = false, length = 500)
-    private String Content;
+    private String content;
 
     private String imgUrl;
 
-    private Float Rating;
+    private Float rating;
 
     private Boolean isDeleted;
 
