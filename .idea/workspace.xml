@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c809fd4a-744d-47a8-b281-bd12a25c2942" name="Changes" comment="[8주차] 미션 댓글 달기 API">
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/ApiPayload/exception/handler/UserMissionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/converter/UserMissionConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionChallengeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionChallengeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserMissionRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ChallengeMissionRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ReviewRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ReviewRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/ApiPayload/code/status/ErrorStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/ApiPayload/code/status/ErrorStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewRequest$ReviewDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewRequest$ReviewDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/ApiPayload/code/status/ErrorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/ApiPayload/code/status/ErrorStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/ReviewService/ReviewCommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/ReviewService/ReviewCommandService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +78,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature#1" />
+        <entry key="$PROJECT_DIR$" value="feature#2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,7 +112,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "feature#2",
+    "git-widget-placeholder": "feature#4",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -338,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731631194006</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[8주차] 미션 댓글 달기 API">
+      <option name="closed" value="true" />
+      <created>1731631339984</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731631339984</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
