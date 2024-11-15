@@ -92,7 +92,7 @@ public class Application {
 				System.out.println("Deadline: " + mission.getDeadline());
 				System.out.println("----------");
 			});
-			*/
+
 			// UserQueryService 실행
 			UserQueryService userService = context.getBean(UserQueryService.class);
 			Long userId = 1L;
@@ -106,5 +106,6 @@ public class Application {
 			System.out.println("User point: " + userInfo.getPoint());
 			System.out.println("----------");
 		};
+		*/};
 	}
 }

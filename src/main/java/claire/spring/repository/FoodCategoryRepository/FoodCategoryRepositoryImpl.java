@@ -1,4 +1,9 @@
 package claire.spring.repository.FoodCategoryRepository;
 
-public class FoodCategoryRepositoryImpl {
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Repository;
+
+@Repository
+@RequiredArgsConstructor
+public class FoodCategoryRepositoryImpl implements FoodCategoryRepositoryCustom {
 }
