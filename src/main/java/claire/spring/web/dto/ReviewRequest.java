@@ -21,4 +21,5 @@ public class ReviewRequest {
         @NotNull
         private Float rating;
     }
+
 }

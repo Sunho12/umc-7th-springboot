@@ -5,21 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c809fd4a-744d-47a8-b281-bd12a25c2942" name="Changes" comment="[8주차] 미션 댓글 달기 API">
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/ApiPayload/exception/handler/UserMissionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/converter/UserMissionConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionChallengeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionChallengeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserMissionRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ChallengeMissionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/converter/StoreConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/StoreRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d70b6c61-b4b7-432a-8154-c423143c1b80.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d70b6c61-b4b7-432a-8154-c423143c1b80.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbbdd1e6-45f5-44e1-b560-05e948dfd0e5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fbbdd1e6-45f5-44e1-b560-05e948dfd0e5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/ApiPayload/code/status/ErrorStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/ApiPayload/code/status/ErrorStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewRequest$ReviewDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewRequest$ReviewDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/ApiPayload/code/status/ErrorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/ApiPayload/code/status/ErrorStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/ReviewService/ReviewCommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/ReviewService/ReviewCommandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/converter/ReviewConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/converter/ReviewConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/ReviewRepository/ReviewRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/ReviewRepository/ReviewRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/service/StoreService/StoreQueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/service/StoreService/StoreQueryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/service/StoreService/StoreQueryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/service/StoreService/StoreQueryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewResponse$ReviewResultDTO$ReviewResultDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewResponse$ReviewResultDTO$ReviewResultDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewResponse$ReviewResultDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewResponse$ReviewResultDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/ReviewResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/converter/ReviewConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/converter/ReviewConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/ReviewRepository/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/ReviewRepository/ReviewRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/StoreService/StoreQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/StoreService/StoreQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/StoreService/StoreQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/StoreService/StoreQueryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ReviewRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ReviewRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ReviewResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/ReviewResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +83,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature#2" />
+        <entry key="$PROJECT_DIR$" value="feature#3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,7 +117,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "feature#4",
+    "git-widget-placeholder": "feature#5",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
