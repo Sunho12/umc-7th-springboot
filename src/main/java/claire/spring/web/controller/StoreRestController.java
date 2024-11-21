@@ -37,4 +37,5 @@ public class StoreRestController {
         Page<Review> reviewList = storeQueryService.getReviewList(missionId, page);
         return ApiResponse.onSuccess(ReviewConverter.reviewPreviewListDTO(reviewList));
     }
+
 }
