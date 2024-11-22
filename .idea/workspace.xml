@@ -4,38 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c809fd4a-744d-47a8-b281-bd12a25c2942" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/MissionRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d70b6c61-b4b7-432a-8154-c423143c1b80.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbbdd1e6-45f5-44e1-b560-05e948dfd0e5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fbbdd1e6-45f5-44e1-b560-05e948dfd0e5.xml" afterDir="false" />
+    <list default="true" id="c809fd4a-744d-47a8-b281-bd12a25c2942" name="Changes" comment="[9주차] 미션 상태 변경 API">
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/UserMissionService/UserMissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/UserMissionService/UserMissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/UserMissionResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/ApiPayload/exception/ExceptionAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/ApiPayload/exception/ExceptionAdvice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/MissionRepository/MissionRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/MissionRepository/MissionRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/service/MissionService/MissionQueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/service/MissionService/MissionQueryService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/service/MissionService/MissionQueryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/service/MissionService/MissionQueryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/validation/annotation/ValidPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/validation/annotation/ValidPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/validation/validator/PagingValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/validation/validator/PagingValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/controller/StoreRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/controller/StoreRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/controller/UserRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/controller/UserRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/ApiPayload/exception/handler/ReviewHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/ApiPayload/exception/handler/ReviewHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/converter/ReviewConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/converter/ReviewConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/MissionRepository/MissionRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/MissionRepository/MissionRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/controller/UserMissionRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/controller/UserMissionRestController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/MissionRepository/MissionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/MissionRepository/MissionRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/StoreService/StoreQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/StoreService/StoreQueryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/StoreService/StoreQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/StoreService/StoreQueryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/ReviewRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/ReviewRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/MissionRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/MissionRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserMissionRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserMissionRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +64,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature#6" />
+        <entry key="$PROJECT_DIR$" value="feature#8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,7 +98,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "feature#8",
+    "git-widget-placeholder": "feature#9",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -368,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732209148354</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[9주차] 미션 상태 변경 API">
+      <option name="closed" value="true" />
+      <created>1732245583498</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732245583499</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,6 +394,7 @@
     <MESSAGE value="[8주차] 미션 댓글 달기 API" />
     <MESSAGE value="[9주차] 리뷰 목록 조회 API" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="[9주차] 미션 상태 변경 API" />
+    <option name="LAST_COMMIT_MESSAGE" value="[9주차] 미션 상태 변경 API" />
   </component>
 </project>
