@@ -12,4 +12,5 @@ import java.util.List;
 
 public interface MissionQueryService {
     List<Mission> getMissionByUserIdAndStatus(Long userId, MissionStatus status, int offset, int limit);
+    boolean updateMissionStatus(Long userId, Long missionId, MissionStatus status);
 }

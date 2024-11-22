@@ -9,4 +9,5 @@ import java.util.List;
 
 public interface MissionRepositoryCustom {
     List<Mission> findMissionByUserIdAndStatus(Long userId, MissionStatus status, int offset, int limit);
+
 }
