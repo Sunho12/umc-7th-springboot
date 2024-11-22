@@ -3,7 +3,9 @@ package claire.spring.web.controller;
 import claire.spring.ApiPayload.ApiResponse;
 import claire.spring.converter.ReviewConverter;
 import claire.spring.domain.Review;
+import claire.spring.service.ReviewService.ReviewQueryService;
 import claire.spring.service.StoreService.StoreQueryService;
+import claire.spring.validation.annotation.ValidPage;
 import claire.spring.web.dto.ReviewResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -21,6 +23,7 @@ import org.springframework.web.bind.annotation.*;
 public class StoreRestController {
 
     private final StoreQueryService storeQueryService;
+    private final ReviewQueryService reviewQueryService;
 
     @GetMapping("/{missionId}/reviews")
     @Operation(summary = "특정 미션의 리뷰 목록 조회 API",description = "특정 미션의 리뷰들의 목록을 조회하는 API이며, 페이징을 포함합니다. query String 으로 page 번호를 주세요")
