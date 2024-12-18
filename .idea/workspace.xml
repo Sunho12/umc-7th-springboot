@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c809fd4a-744d-47a8-b281-bd12a25c2942" name="Changes" comment="[9주차] 미션 상태 변경 API">
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/UserMissionService/UserMissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/UserMissionService/UserMissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/UserMissionResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/MissionRepository/MissionRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/MissionRepository/MissionRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/service/MissionService/MissionQueryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/service/MissionService/MissionQueryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/controller/UserMissionRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/controller/UserMissionRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/MissionRepository/MissionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/MissionRepository/MissionRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/MissionRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/MissionRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserMissionRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserMissionRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature#8" />
+        <entry key="$PROJECT_DIR$" value="feature#9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,7 +84,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "feature#9",
+    "git-widget-placeholder": "Chapter10",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -224,6 +210,7 @@
       <workItem from="1731454843295" duration="1038000" />
       <workItem from="1731455890067" duration="167000" />
       <workItem from="1731456060139" duration="1325000" />
+      <workItem from="1734529743073" duration="182000" />
     </task>
     <task id="LOCAL-00001" summary="✨DB 설계">
       <option name="closed" value="true" />

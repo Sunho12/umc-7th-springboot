@@ -41,6 +41,10 @@ dependencies {
 
 	testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	//Security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	testImplementation 'org.springframework.security:spring-security-test'
 }
 
 
