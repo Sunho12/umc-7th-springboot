@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c809fd4a-744d-47a8-b281-bd12a25c2942" name="Changes" comment="[9주차] 미션 상태 변경 API">
+    <list default="true" id="c809fd4a-744d-47a8-b281-bd12a25c2942" name="Changes" comment="[10주차] Spring Security 기본 설정">
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/MemberViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -210,7 +219,7 @@
       <workItem from="1731454843295" duration="1038000" />
       <workItem from="1731455890067" duration="167000" />
       <workItem from="1731456060139" duration="1325000" />
-      <workItem from="1734529743073" duration="182000" />
+      <workItem from="1734529743073" duration="1960000" />
     </task>
     <task id="LOCAL-00001" summary="✨DB 설계">
       <option name="closed" value="true" />
@@ -348,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732245583499</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="[10주차] Spring Security 기본 설정">
+      <option name="closed" value="true" />
+      <created>1734531052171</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734531052172</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,6 +399,7 @@
     <MESSAGE value="[9주차] 리뷰 목록 조회 API" />
     <MESSAGE value="commit" />
     <MESSAGE value="[9주차] 미션 상태 변경 API" />
-    <option name="LAST_COMMIT_MESSAGE" value="[9주차] 미션 상태 변경 API" />
+    <MESSAGE value="[10주차] Spring Security 기본 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="[10주차] Spring Security 기본 설정" />
   </component>
 </project>
