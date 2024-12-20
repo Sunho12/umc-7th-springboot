@@ -5,22 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c809fd4a-744d-47a8-b281-bd12a25c2942" name="Changes" comment="[9주차] 미션 상태 변경 API">
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/UserMissionService/UserMissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/UserMissionService/UserMissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/UserMissionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/domain/enums/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbbdd1e6-45f5-44e1-b560-05e948dfd0e5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/MissionRepository/MissionRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/MissionRepository/MissionRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/service/MissionService/MissionQueryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/service/MissionService/MissionQueryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/controller/UserMissionRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/controller/UserMissionRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/MissionRepository/MissionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/MissionRepository/MissionRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/repository/UserMissionRepository/UserMissionRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/MissionService/MissionQueryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/MissionRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/MissionRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserMissionRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/controller/UserMissionRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/converter/UserConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/converter/UserConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/QUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/QUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/service/UserService/UserCommandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/service/UserService/UserCommandServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/UserRequest$JoinDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/UserRequest$JoinDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/UserRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/claire/spring/web/dto/UserRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/claire/spring/domain/QUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/claire/spring/domain/QUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/converter/UserConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/converter/UserConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/service/UserService/UserCommandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/service/UserService/UserCommandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claire/spring/web/dto/UserRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +63,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature#8" />
+        <entry key="$PROJECT_DIR$" value="feature#9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,7 +106,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "feature#9",
+    "git-widget-placeholder": "feature#10",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

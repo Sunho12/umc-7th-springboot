@@ -52,11 +52,21 @@ public class User extends BaseEntity {
     @Column(columnDefinition = "VARCHAR(15) DEFAULT 'ACTIVE'")
     private MemberStatus status;
 
-    @Column(nullable = false, length = 50)
+    @Column(nullable = false, unique = true, length = 50)
     private String email;
 
     @ColumnDefault("0")
     private Integer point;
+
+    @Column(nullable = false)
+    private String password;
+
+    @Enumerated(EnumType.STRING)
+    private Role role;
+
+    public void encodePassword(String password) {
+        this.password = password;
+    }
 
     // 관계 설정
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)

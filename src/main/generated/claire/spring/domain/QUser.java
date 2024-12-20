@@ -39,11 +39,15 @@ public class QUser extends EntityPathBase<User> {
 
     public final StringPath nickname = createString("nickname");
 
+    public final StringPath password = createString("password");
+
     public final StringPath phone_num = createString("phone_num");
 
     public final NumberPath<Integer> point = createNumber("point", Integer.class);
 
     public final ListPath<Review, QReview> reviewList = this.<Review, QReview>createList("reviewList", Review.class, QReview.class, PathInits.DIRECT2);
+
+    public final EnumPath<claire.spring.domain.enums.Role> role = createEnum("role", claire.spring.domain.enums.Role.class);
 
     public final EnumPath<claire.spring.domain.enums.SocialType> socialType = createEnum("socialType", claire.spring.domain.enums.SocialType.class);
 

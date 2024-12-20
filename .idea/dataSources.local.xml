@@ -19,7 +19,7 @@
       </schema-mapping>
     </data-source>
     <data-source name="umc_spring@localhost" uuid="fbbdd1e6-45f5-44e1-b560-05e948dfd0e5">
-      <database-info product="MySQL" version="8.0.39" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.39" exact-driver-version="8.2">
+      <database-info product="MySQL" version="8.0.39" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.39">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>

@@ -21,10 +21,12 @@ public class UserConverter {
                 .name(request.getName())
                 .nickname(request.getNickname())
                 .email(request.getEmail())
+                .password(request.getPassword())
                 .address(request.getAddress())
                 .gender(Gender.valueOf(request.getGender()))
                 .phone_num(request.getPhoneNum())
                 .userPreferList(new ArrayList<>())
+                .role(request.getRole())
                 .build();
     }
 }
